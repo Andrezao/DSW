@@ -1,0 +1,44 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+body{
+	font-family: Arial;
+	background-color: lightgreen;
+}
+
+header{
+	text-align: center;
+	background-color: teal;
+	color: white;
+	padding: 10px;
+}
+
+nav{
+	text-align: left;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	margin: 5px;
+}
+
+main h2{
+	margin: 10px;
+	background-color: #b2dfdb;
+}
+
+main{
+	padding: 10px;
+	margin: auto;
+	width: 60%;
+	background-color: #80cbc4;
+}
+
+footer{
+	background-color: teal;
+	text-align: center;
+	padding: 10px;
+}
