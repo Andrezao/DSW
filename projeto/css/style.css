@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+    background-color: #252323;
+}
+
+.header1-content{
+    width: 980px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.socials{
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.header2{
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    font-size: 14px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a{
+    color: #8b8b8b;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom:solid #ffffff;
+}
+
+.menu a:hover{
+    color:#00bac6;
+    border-bottom:solid #00bac6;
+}
+
+.search-box{
+    padding: 0 20px 0 20px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid #d6d6d6 1px;
+}
+
+.search-box input{
+    background: url('../img/Layer\ 11.png') no-repeat right;
+    height: 33px;
+    border-radius: 5px;
+}
+
+.search-box input::placeholder{
+    color: #a6a6a6;
+    font-size: 13px;
+}
+
+.banner{
+    height: 455px;
+    background: url('../img/slide01.png') no-repeat right;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.banner-content{
+    height: 455px;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-banner{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.subtitulo-banner{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-pos{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.section-desc{
+    height: 210px;
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulo-sec2{
+    font-size: 30px;
+    font-weight: normal;
+    color: #646464;
+    padding: 25px;
+}
+
+.par-contet{
+    text-align: center;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.destaques{
+    width: 980px;
+    height: 370px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.destaques-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaques-img{
+    width: 115px;
+    height: 115px;
+}
+
+.destaques-titulo{
+    font-size: 20px;
+    font-weight: normal;
+    color: #646464;
+    padding: 15px;
+}
+
+.linha{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.linha-img{
+    height: 185px;
+}
+
+.linha-div{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #c5c5c5;
+}
+
+.linha-div-titulo{
+    font-size: 14px;
+    font-weight: bold;
+    color: #646464;
+    padding-bottom: 5px;
+}
+
+.linha-div-text{
+    padding: 15px;
+}
+
+.clientes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.clientes img{
+    height: fit-content;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #4d494e;
+}
+
+.footer1{
+    color: #c1c1c1;
+    padding: 10px 0 20px 0;
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2{
+    background-color: #232523;
+}
+
+.footer2-content{
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.footer1-content{
+    width: 200px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 14px;
+}
+
+.footer-titulo{
+    font-size: 22px;
+}
+
+.footer-popular{
+    padding: 15px 0;
+    border-bottom: solid 1px #c1c1c1;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.data img{
+    height: fit-content;
+}
+
+.add, .loc{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.add img{
+    height: fit-content;
+}
